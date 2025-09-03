@@ -5,7 +5,8 @@ import PptxGenJS from "pptxgenjs";
 import { Upload, Lock, FileText, Camera, Monitor } from "lucide-react";
 
 // Required for pdfjs worker
-pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
+// pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
+(pdfjsLib as any).GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
 const PX_PER_INCH = 96; // standard CSS px per inch
 
