@@ -3,7 +3,7 @@
 Convert any **PDF** into a **PowerPoint (.pptx)** instantly — right in your browser.  
 ⚡ 100% client-side, no uploads, no tracking. Your files never leave your computer.
 
-![App Screenshot](./screenshot.png)  
+![App Screenshot](./screenshots/screenshot.png)  
 <!-- Or replace with a GIF if you record a demo: ![Demo](./demo.gif) -->
 
 ---
